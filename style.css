@@ -8,8 +8,13 @@ html {
     --white: #FFFFFF; 
     --off-white:#E5E7EB; 
 }
-
-
+.link{
+    text-decoration: none;
+}
+.link:hover {
+    border-bottom: 1px solid;
+    background: #66ccff;
+  }
   
   body {
     background: #1f2235;
@@ -92,6 +97,11 @@ color: #FFFFFF;
     font-size:2em;
     padding-left: 1.5em;
 
+  }
+  .project{
+    font-size:2em;
+    padding-left: 1.5em;
+ 
   }
 
   
