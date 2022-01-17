@@ -9,12 +9,21 @@ html {
     --off-white:#E5E7EB; 
 }
 .link{
+
     text-decoration: none;
 }
 .link:hover {
+    outline: none;
     border-bottom: 1px solid;
     background: #66ccff;
+    color: #FADCD9;
   }
+.link:visited {
+  color: #FADCD9;
+}
+.link:link {
+  color: #F79489;
+}
   
   body {
     background: #1f2235;
@@ -101,7 +110,7 @@ color: #FFFFFF;
   .project{
     font-size:2em;
     padding-left: 1.5em;
- 
+    color: #FFFFFF;
   }
 
   
